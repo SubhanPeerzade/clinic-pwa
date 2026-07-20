@@ -1,0 +1,31 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+{
+    Schema::create('dose_masters', function (Blueprint $table) {
+        $table->id();
+        $table->string('pattern')->unique();      // 1-0-1
+        $table->string('description')->nullable(); // Morning & Night
+        $table->boolean('is_active')->default(true);
+        $table->timestamps();
+    });
+}
+
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('dose_masters');
+    }
+};
