@@ -185,21 +185,6 @@ Each role has dedicated dashboards and permissions.
 
 ---
 
-# 📸 Screenshots
-
-You can add screenshots here.
-
-Example:
-
-```
-screenshots/
-    login.png
-    dashboard.png
-    prescription.png
-```
-
----
-
 # 📈 Future Enhancements
 
 - SMS Notifications
@@ -247,7 +232,7 @@ git push origin feature/NewFeature
 **Subhan Peerzade**
 
 - GitHub: https://github.com/SubhanPeerzade
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: *(www.linkedin.com/in/subhan-peerzade-61575721b)*
 
 ---
 
